@@ -1,6 +1,6 @@
-package Java;
+//package Java;
 import java.util.*;
-public class Sorting {
+public class Task1 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		int n=sc.nextInt();                         //inputting the number of elements in array
