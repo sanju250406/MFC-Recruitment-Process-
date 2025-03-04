@@ -1,5 +1,5 @@
-//package Java;
-import java.util.*;
+
+import java.util.*;      //We use a BubbleSort function to sort the array the user inputs
 public class Task1 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
@@ -31,7 +31,7 @@ public class Task1 {
 					swap=true;       //changing the swap variable
 				}
 			}
-			if(!swap)break;        // i.e. the array is sorted
+			if(!swap)break;        // i.e. the array is sorted now no need to run loop
 		} 
 		return arr;
 	}
@@ -59,7 +59,8 @@ public class Task1 {
           * Average Case-->O(n^2)
           * Worst Case-->O(n^2)
           * 
-          * So we can see Bubble Sort is not the most optimal and merge sort has the most
+          * So we can see Bubble Sort is not the most optimal algorithm for sorting and merge sort has the most
           * optimal time complexity among these 4 options.There are other complex sorting 
-          * algorithms as well(Heap Sort etc) which also we can use.
+          * algorithms as well(Counting Sort,Radix Sort etc) which also we can use and can give
+          * linear time complexities but are far more complicated to code out.
           */
